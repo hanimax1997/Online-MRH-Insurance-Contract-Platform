@@ -1,0 +1,33 @@
+<header class="bg-white w-full shadow-sm">
+  <nav
+    class="w-full max-w-[77rem] mx-auto
+           flex items-center gap-4
+           px-4 sm:px-6 lg:px-8 py-3 text-sm">
+
+    <!-- Bloc logo + titre (alignés à gauche) ------------------------------>
+    <div class="flex items-center gap-3 min-w-0">
+      <!-- Logo -->
+      <a (click)="newDevis()"
+         aria-label="AXA Algérie"
+         class="shrink-0 focus:outline-none focus:opacity-80">
+        <img src="assets/images/AXA_LOGO.png"
+             alt="AXA logo"
+             class="h-10 sm:h-12 w-auto">
+      </a>
+
+      <!-- Titre -->
+      <h1 class="truncate font-semibold text-primary-400 text-sm sm:text-base md:text-base">
+        Assurance&nbsp;Habitation
+      </h1>
+    </div>
+
+    <!-- Bouton “Revenir” (passe full-width <640 px) ----------------------->
+    <button type="button"
+            (click)="revenir()"
+            class="ml-auto w-full sm:w-auto inline-flex justify-center items-center
+                   text-primary-400 font-semibold whitespace-nowrap
+                   hover:text-primary-600 focus:outline-none transition">
+      Revenir&nbsp;sur&nbsp;axa.dz
+    </button>
+  </nav>
+</header>

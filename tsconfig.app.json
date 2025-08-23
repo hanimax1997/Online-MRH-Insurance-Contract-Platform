@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.json",
+
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": []
+  },
+
+  "angularCompilerOptions": {
+    "controlFlow": true
+  },
+
+  "files": [
+    "src/main.ts"
+  ],
+
+  "include": [
+    "src/**/*.ts"
+  ],
+
+  "exclude": [
+    "node_modules"
+  ]
+}
